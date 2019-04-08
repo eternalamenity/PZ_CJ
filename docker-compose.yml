@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  bmarcin_jupyter:
+    build: .
+    volumes:
+      - ./files:/home/marcinek
+    ports:
+      - 8888:8888
